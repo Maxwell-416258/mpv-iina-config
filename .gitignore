@@ -1,0 +1,22 @@
+# mpv runtime / local data
+portable_config/cache/
+portable_config/watch_later/
+portable_config/screenshots/
+portable_config/mpv.log
+portable_config/subtitles/*
+!portable_config/subtitles/.gitkeep
+
+# downloaded subtitle sidecars
+*.chs.ass
+*.chs.srt
+*.chs.ssa
+*.cht.ass
+*.cht.srt
+*.subs_cn.delay
+*.zh.ass
+*.zh.srt
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
